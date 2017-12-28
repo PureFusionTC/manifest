@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="uu"
+           fetch="https://github.com/PureFusionTC/" />
+  <default revision="master"
+           remote="pftc"
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+
+  <project path="manifest" name="manifest" />
+  <project path="binutils/binutils" name="binutils" revision="master" />
+  <project path="build" name="build" />
+  <project path="cloog/cloog-fusion" name="cloog" revision="master" />
+  <project path="cloog/cloog-fusion/isl" name="isl" revision="master" />
+  <project path="cloog/cloog-fusion/osl" name="osl" revision="master" />
+  <project path="isl/isl-fusion" name="isl" revision="master" />
+  <project path="gcc/gcc-fusion" name="gcc" revision="gcc-6-branch" />
+  <project path="gmp/gmp-fusion" name="gmp" revision="master" />
+  <project path="mpc/mpc-fusion" name="mpc" revision="master" />
+  <project path="mpfr/mpfr-fusion" name="mpfr" revision="master" />
+  <project path="scripts" name="scripts" />
+  <project path="sysroot" name="sysroot" revision="gcc-4.9" />
+</manifest>
